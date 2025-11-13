@@ -36,7 +36,7 @@ const Student = db.define("student", {
 
   imageUrl: {
     type: Sequelize.STRING,
-    allowNull: false,  // <-- always required
+    allowNull: false,  
     defaultValue: DEFAULT_IMAGE,
     validate: {
       isURL: true
