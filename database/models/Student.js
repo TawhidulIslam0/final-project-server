@@ -6,7 +6,7 @@ It defines the student model for the database.
 const Sequelize = require('sequelize');  // Import Sequelize
 const db = require('../db');  // Import Sequelize database instance called "db"
 
-const DEFAULT_IMAGE = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRLRMXynnc7D6-xfdpeaoEUeon2FaU0XtPg&s";
+const DEFAULT_IMAGE = "https://cdn-icons-png.flaticon.com/512/847/847969.png";
 
 const Student = db.define("student", {
   firstname: {
