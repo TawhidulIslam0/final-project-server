@@ -9,12 +9,11 @@ TawhidulIslam0
 ## Repository  
 https://github.com/TawhidulIslam0/final-project-server
 
-For running the Backend
+## For running the Backend
 1) Go to the backend folder path
 2) Run npm start 
 
 ##  Output
-
 
 Opening database connection
 Server started on 5001
